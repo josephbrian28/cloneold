@@ -27,7 +27,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0_SINGLE_LINE_2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .navbar-container {
@@ -139,7 +139,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  background: linear-gradient(135deg, #2b6cb0 0%, #edf2f7 100%);
   padding: 6rem 0;
   text-align: center;
 }
@@ -247,6 +247,72 @@ body {
 .feature-card p {
   color: #4a5568;
   font-size: 0.95rem;
+}
+
+/* Results Section */
+.results {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #2b6cb0 0%, #edf2f7 100%);
+  text-align: center;
+}
+
+.results h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2b6cb0;
+  margin-bottom: 0.5rem;
+}
+
+.results-subtitle {
+  font-size: 1.125rem;
+  color: #4a5568;
+  max-width: 600px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.results-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.result-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2.5rem;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* .result-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+} */
+
+.result-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.result-card h3 {
+  color: #2b6cb0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.result-card p {
+  color: #4a5568;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.results-button {
+  display: flex;
+  justify-content: center;
 }
 
 /* Footer */
@@ -367,6 +433,23 @@ body {
     align-items: center;
   }
 
+  .results {
+    padding: 3rem 0;
+  }
+
+  .results h2 {
+    font-size: 2rem;
+  }
+
+  .results-subtitle {
+    font-size: 1rem;
+  }
+
+  .results-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .footer-content {
     flex-direction: column;
     align-items: center;
@@ -392,5 +475,17 @@ body {
   .primary-btn, .secondary-btn {
     padding: 0.75rem 1.5rem;
     font-size: 0.9rem;
+  }
+
+  .results h2 {
+    font-size: 1.75rem;
+  }
+
+  .results-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .result-card {
+    width: 280px;
   }
 }

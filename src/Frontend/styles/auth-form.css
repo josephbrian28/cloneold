@@ -26,7 +26,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  color: #000000;
+  color: #4a5568; /* Updated to neutral gray */
   padding: 8px;
   border-radius: 50%;
   transition: background-color 0.2s ease, color 0.2s ease;
@@ -35,7 +35,7 @@
 
 .auth-close-btn1:hover {
   color: #ffffff;
-  background-color: #4e80a6;
+  background-color: #1a4971; /* Updated to professional blue */
 }
 
 .auth-back-btn1 {
@@ -44,7 +44,7 @@
   padding: 0.6rem 0;
   border-radius: 0.5rem;
   border: none;
-  background-color: #757575;
+  background-color: #4a5568; /* Updated to neutral gray */
   color: #ffffff;
   font-size: 1.2rem;
   margin-top: 1rem;
@@ -53,7 +53,7 @@
 }
 
 .auth-back-btn1:hover {
-  background-color: #5e5e5e;
+  background-color: #2d3748; /* Darker gray for hover */
 }
 
 .container1 {
@@ -110,14 +110,14 @@
   left: 1rem;
   transform: translateY(-50%);
   font-size: 1.4rem;
-  color: #757575;
+  color: #4a5568; /* Updated to neutral gray */
 }
 
 .input-group1 input {
   width: 100%;
   padding: 1rem 3rem;
   font-size: 1rem;
-  background-color: #efefef;
+  background-color: #f7fafc; /* Updated to light gray, matching custom.css */
   border-radius: 0.5rem;
   border: 0.125rem solid #ffffff;
   outline: none;
@@ -125,7 +125,7 @@
 }
 
 .input-group1 input:focus {
-  border: 0.125rem solid #4e90a6;
+  border: 0.125rem solid #2b6cb0; /* Updated to primary blue */
 }
 
 .form1 button {
@@ -134,7 +134,7 @@
   padding: 0.6rem 0;
   border-radius: 0.5rem;
   border: none;
-  background-color: #4e80a6;
+  background-color: #1a4971; /* Updated to professional blue */
   color: #ffffff;
   font-size: 1.2rem;
   font-family: 'Poppins', sans-serif;
@@ -144,7 +144,7 @@
 .form1 p {
   margin: 1rem 0;
   font-size: 0.7rem;
-  color: #757575;
+  color: #4a5568; /* Updated to neutral gray */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -154,7 +154,7 @@
 
 .pointer1 {
   cursor: pointer;
-  color: #4e80a6;
+  color: #2b6cb0; /* Updated to primary blue */
 }
 
 .pointer1:hover {
@@ -231,7 +231,7 @@
   height: 100%;
   width: 300vw;
   transform: translate(35%, 0);
-  background-image: linear-gradient(-45deg, #4e80a6 0%, #4e80a6 100%);
+  background-image: linear-gradient(-45deg, #1a4971 0%, #2b6cb0 100%); /* Updated to professional blue gradient */
   transition: 1s ease-in-out;
   z-index: 4;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
